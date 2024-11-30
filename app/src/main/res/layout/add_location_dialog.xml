@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Add Location"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/location_name_field"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Location Name"
+        />
+
+
+    <EditText
+        android:id="@+id/location_address_field"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Location Address"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        >
+
+        <Button
+            android:id="@+id/close_modal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#086a2d"
+            android:text="Close" />
+
+        <Button
+            android:id="@+id/add_location_btn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#086a2d"
+            android:text="Add Location"
+            app:iconTint="#7A3939" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

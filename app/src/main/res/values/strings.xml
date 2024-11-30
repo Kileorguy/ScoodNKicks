@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScoodNKicks</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_user_edit_profile">UserEditProfileActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

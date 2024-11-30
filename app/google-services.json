@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1024717917113",
+    "project_id": "scoodnkicks",
+    "storage_bucket": "scoodnkicks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024717917113:android:3f9cd87d7f22738f59c468",
+        "android_client_info": {
+          "package_name": "edu.bluejack23_1.scoodnkicks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiY-ABdpwWPkd070p2iHbAyrTopAcg_3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
